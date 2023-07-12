@@ -4,7 +4,11 @@
     box-sizing: border-box;
 }
 .container{
+    width: 100vw;
     min-height: 100vh;
     background-color: #e5e5fd;
-    border: 20px solid black
+    border: 20px solid black;
+}
+.head_container img{
+    border-radius: 45%;    
 }
