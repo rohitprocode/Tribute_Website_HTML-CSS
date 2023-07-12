@@ -9,6 +9,10 @@
     background-color: #e5e5fd;
     border: 20px solid black;
 }
+.head_container{
+    display: flex;
+    margin: 10vh;
+}
 .head_container img{
     border-radius: 45%;    
 }
