@@ -11,6 +11,49 @@
 .content{
     max-width: 900px;
     margin: 0 auto;
+}
+
+.top_section{
     margin-top: 100px;
-    /* background-color: blanchedalmond; */
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.imgcontainer,img{
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.imgcontainer img{
+    width: 300px;
+    height: 320px;
+}
+
+.title h1{
+    font-size: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.title h4{
+    font-size: 25px;
+    text-align: end;
+    font-weight: 900;
+}
+
+.about_section{
+    margin-top: 70px;
+}
+
+.about_section h1{
+    font-size: 65px;
+    letter-spacing: 1.5px;
+}
+
+.about_section p{
+    margin-top: 15px;
+    text-align: justify;
+    letter-spacing: 1.2px;
+    line-height: 30px;
 }
