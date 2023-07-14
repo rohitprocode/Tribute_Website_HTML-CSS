@@ -13,11 +13,12 @@
     background-color: #e5e5fd;
 }
 .content{
-    max-width: 900px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
 .top_section{
+    max-width: 900px;
     margin-top: 100px;
     display: flex;
     justify-content: space-around;
@@ -75,4 +76,10 @@
 .biography ul li{
     letter-spacing: 1.5px;
     line-height: 25px;
+}
+
+.footer{
+    margin-top: 100px;
+    margin-right: 90px;
+    text-align: end;
 }
